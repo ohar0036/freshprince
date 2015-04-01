@@ -1,0 +1,184 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+a {
+  color: #44a8a1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.1em 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -3.75em;
+}
+
+nav li {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  display: inline-block;
+  margin: 0 1em;
+  background: #44a8a1;
+  padding:0;
+  text-align: center;
+}
+
+nav a{
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #fff;
+  line-height: 4.95em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: url(http://marinaohara.com/thinkful/about_bg2.jpg);
+  padding: 3em 0 6em 0;
+  background-size: cover;
+  border-bottom: 0.35em solid #44a8a1;
+}
+
+section {
+  max-width: 38em;
+  margin: 2.143em auto 0 auto;
+  padding-top: 1.786em;
+  border-top: 0.1em #cbcbcb  dotted;
+}
+
+section img {
+  max-width: 38em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-family: 'Norican', cursive;
+  font-size: 10em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0.02em 0.02em 0.03em #2e4b57;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2em;
+  color: #2a5c71;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first {
+  margin-top: 1em;
+  border-top: none;
+}
+
+.question {
+  font-weight: 600;
+  color: #44a8a1;
+  font-size: 1.15em;
+}
+
+footer {
+  background: #44a8a1;
+  margin: 2em auto 0 auto;
+  padding: 2em 0 3em 0;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer_logo {
+  font-family: 'Norican', cursive;
+  font-size: 3em;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  color: #b2d6d3;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.95em;
+}
+
+footer li a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 6em;
+    }
+    
+    h2 {
+        font-size: 1.20em;
+        line-height: 0.05em;
+        padding-top: 0.6em;
+    }
+    
+    .first {
+      margin-top: 0.85em;
+    }
+    
+    section {
+        padding: 1.25em 1.5em 0 1.5em;
+    }
+  
+    header {
+        padding: 1.071em 0;
+        background-size: cover;
+        border-bottom: 0.35em solid #44a8a1;
+    }
+  
+    footer {
+        margin: 2em auto 0 auto;
+        padding: 1.25em 0 0.3em 0;
+    }
+  
+    .footer_logo {
+        font-family: 'Norican', cursive;
+        font-size: 2.75em;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        line-height: 0.85em;
+    }
+  
+    .footer li a {
+        font-size: 0.85em;
+    }
+}

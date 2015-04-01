@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #3b3b3b;
+  background: #fff;
+}
+
+header {
+  background: url(http://marinaohara.com/thinkful/about_bg2.jpg);
+  padding: 3.571em 0;
+  background-size: cover;
+  border-bottom: 0.35em solid #2e4b57;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0.071em solid #b2d6d3;
+  margin: 0 auto 5em auto;
+  max-width: 64.286em;
+  opacity: 0.25;
+}
+
+h1 {
+  font-family: 'Norican', cursive;
+  font-size: 10em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0.02em 0.02em 0.03em #2e4b57;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 5em;
+  color: #44a8a1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  margin: 1em 0 0 0;
+}
+
+h3 {
+  margin: 0 0 2em 0;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: #44a8a1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+}
+
+.circle_container {
+  margin: 0 auto;
+  max-width: 21.5em;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 9em;
+  height: 9em;
+  background: #fff;
+  border: 2px dotted #44a8a1;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  /* width and height can be anything, as long as they're equal */
+}
+
+.circle a {
+  font-size: 1.75em;
+  line-height: 5.15em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #44a8a1;
+}
+
+.circle a:hover{
+  color: #2e4b57;
+}
+
+.circle_right {
+   margin-left:2em;
+}
+
+.footer_home{
+  margin: 7em auto;
+}
